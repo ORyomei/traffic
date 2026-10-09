@@ -1,0 +1,118 @@
+name: Collect traffic
+
+on:
+  schedule:
+    - cron: "17 0 * * *" # daily 00:17 UTC (09:17 JST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: traffic
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    outputs:
+      site: ${{ steps.upload.outcome }}
+    steps:
+      - uses: actions/checkout@v7
+
+      # Collected data lives on the "data" branch so the daily bot commits stay
+      # off main (and out of commit notifications for the default branch).
+      - name: Ensure data branch exists
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git ls-remote --exit-code --heads origin data >/dev/null; then
+            init=$(git commit-tree "$(git hash-object -t tree /dev/null)" -m "Initialize data branch")
+            git push origin "${init}:refs/heads/data"
+          fi
+
+      - uses: actions/checkout@v7
+        with:
+          ref: data
+          path: data-branch
+
+      - name: Issue GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ vars.TRAFFIC_OWNER || github.repository_owner }}
+
+      - name: Fetch traffic
+        id: fetch
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          TRAFFIC_OWNER: ${{ vars.TRAFFIC_OWNER || github.repository_owner }}
+          TRAFFIC_REPOS: ${{ vars.TRAFFIC_REPOS }}
+          INCLUDE_PRIVATE: ${{ vars.INCLUDE_PRIVATE }}
+          INCLUDE_FORKS: ${{ vars.INCLUDE_FORKS }}
+          DATA_DIR: data-branch/data
+        run: python3 scripts/fetch_traffic.py
+
+      - name: Commit data
+        working-directory: data-branch
+        run: |
+          git add data
+          git diff --cached --quiet || git commit -m "data: traffic $(date -u +%F)"
+          git pull --rebase origin data
+          git push origin data
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r site/. _site/
+          cp -r data-branch/data _site/data
+
+      - id: upload
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Render chart
+        id: chart
+        continue-on-error: true # still send the numbers if the chart fails
+        run: |
+          pip install -r requirements.txt
+          python scripts/traffic_chart.py data-branch/data "traffic-$(date -u -d yesterday +%F).png"
+
+      - name: Notify Slack (daily summary)
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ vars.SLACK_CHANNEL_ID }}
+          DATA_DIR: data-branch/data
+          FAILED_REPOS: ${{ steps.fetch.outputs.failed }}
+        run: python scripts/notify_slack.py summary "traffic-$(date -u -d yesterday +%F).png"
+
+      - name: Notify Slack (failure)
+        if: failure()
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ vars.SLACK_CHANNEL_ID }}
+        run: python3 scripts/notify_slack.py failure
+
+  # Publish the dashboard whenever the data was collected, even if a later
+  # notification step failed.
+  deploy:
+    needs: collect
+    if: ${{ !cancelled() && needs.collect.outputs.site == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

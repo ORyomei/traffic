@@ -1,0 +1,200 @@
+{
+ "clones": {
+  "2026-09-25": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-26": {
+   "count": 9,
+   "uniques": 6
+  },
+  "2026-09-27": {
+   "count": 38,
+   "uniques": 24
+  },
+  "2026-09-28": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-09-29": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-09-30": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-01": {
+   "count": 20,
+   "uniques": 2
+  },
+  "2026-10-02": {
+   "count": 3,
+   "uniques": 3
+  },
+  "2026-10-03": {
+   "count": 3,
+   "uniques": 3
+  },
+  "2026-10-04": {
+   "count": 4,
+   "uniques": 4
+  },
+  "2026-10-05": {
+   "count": 19,
+   "uniques": 11
+  },
+  "2026-10-06": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-10-07": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-08": {
+   "count": 2,
+   "uniques": 2
+  }
+ },
+ "downloads": {
+  "2026-10-09": {
+   "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
+   "v1.0/ADS8688A_Module-v1.0.pdf": 1,
+   "v1.0/ADS8688A_Module-v1.0.step": 1,
+   "v1.0/ads8688a-module-v1.0-bom-pnp.zip": 2,
+   "v1.0/ads8688a-module-v1.0-gerber.zip": 1
+  }
+ },
+ "paths": {
+  "2026-10-09": [
+   {
+    "count": 13,
+    "path": "/ORyomei/ads8688a-module",
+    "title": "Overview",
+    "uniques": 2
+   },
+   {
+    "count": 7,
+    "path": "/ORyomei/ads8688a-module/releases/tag/v1.0",
+    "title": "/releases/tag/v1.0",
+    "uniques": 3
+   },
+   {
+    "count": 3,
+    "path": "/ORyomei/ads8688a-module/commits/main",
+    "title": "/commits/main",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/ads8688a-module/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/ads8688a-module/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/ads8688a-module/tags",
+    "title": "/tags",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module/blob/main/LICENSE",
+    "title": "/blob/main/LICENSE",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module/network",
+    "title": "/network",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module/network/dependencies",
+    "title": "/network/dependencies",
+    "uniques": 1
+   }
+  ]
+ },
+ "referrers": {
+  "2026-10-09": [
+   {
+    "count": 13,
+    "referrer": "github.com",
+    "uniques": 2
+   },
+   {
+    "count": 2,
+    "referrer": "Google",
+    "uniques": 2
+   }
+  ]
+ },
+ "repo": "ORyomei/ads8688a-module",
+ "views": {
+  "2026-09-25": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-26": {
+   "count": 5,
+   "uniques": 3
+  },
+  "2026-09-27": {
+   "count": 8,
+   "uniques": 1
+  },
+  "2026-09-28": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-09-29": {
+   "count": 2,
+   "uniques": 1
+  },
+  "2026-09-30": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-01": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-02": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-03": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-04": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-05": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-06": {
+   "count": 2,
+   "uniques": 1
+  },
+  "2026-10-07": {
+   "count": 12,
+   "uniques": 1
+  },
+  "2026-10-08": {
+   "count": 1,
+   "uniques": 1
+  }
+ }
+}

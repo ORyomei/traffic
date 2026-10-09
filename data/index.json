@@ -1,0 +1,21 @@
+{
+ "owner": "ORyomei",
+ "repos": [
+  "accelerator-simulation",
+  "ads8688a-module",
+  "dotfiles",
+  "electromagnetic-field-analysis",
+  "gps-tracker",
+  "integrated-data-logger",
+  "kmod-exercise",
+  "linebalancing",
+  "magnetic-field-measurement",
+  "numeric-calculation-homework",
+  "polishing-machine",
+  "recipe-api",
+  "stock-selector",
+  "traffic",
+  "zephyr"
+ ],
+ "updated_at": "2026-10-09T10:10:27+00:00"
+}

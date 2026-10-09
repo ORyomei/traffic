@@ -1,0 +1,150 @@
+{
+ "clones": {
+  "2026-09-25": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-09-26": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-09-27": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-09-28": {
+   "count": 4,
+   "uniques": 4
+  },
+  "2026-09-29": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-30": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-01": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-02": {
+   "count": 5,
+   "uniques": 2
+  },
+  "2026-10-03": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-04": {
+   "count": 3,
+   "uniques": 2
+  },
+  "2026-10-05": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-06": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-07": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-10-08": {
+   "count": 0,
+   "uniques": 0
+  }
+ },
+ "paths": {
+  "2026-10-09": [
+   {
+    "count": 2,
+    "path": "/ORyomei/stock-selector/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/stock-selector/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/stock-selector",
+    "title": "Overview",
+    "uniques": 1
+   }
+  ]
+ },
+ "referrers": {
+  "2026-10-09": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ]
+ },
+ "repo": "ORyomei/stock-selector",
+ "views": {
+  "2026-09-25": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-26": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-27": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-28": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-29": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-09-30": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-01": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-02": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-03": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-04": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-05": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-06": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-07": {
+   "count": 5,
+   "uniques": 1
+  },
+  "2026-10-08": {
+   "count": 0,
+   "uniques": 0
+  }
+ }
+}

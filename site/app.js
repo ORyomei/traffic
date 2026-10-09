@@ -1,4 +1,4 @@
-const state = { index: null, repos: {}, repo: "", days: 90, sortKey: "views", sortDir: -1 };
+const state = { index: null, repos: {}, repo: "", days: 30, sortKey: "views", sortDir: -1 };
 const charts = {};
 const fmt = new Intl.NumberFormat("ja-JP");
 const $ = (id) => document.getElementById(id);

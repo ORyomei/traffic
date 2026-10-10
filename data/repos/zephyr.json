@@ -55,6 +55,10 @@
   "2026-10-08": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-10-09": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -71,10 +75,31 @@
     "title": "rtos/zephyr/compare/main...ORyomei:zephyr:refs/heads/adc-ads868x",
     "uniques": 1
    }
+  ],
+  "2026-10-10": [
+   {
+    "count": 1,
+    "path": "/ORyomei/zephyr/tree/refs/heads/adc-ads868x",
+    "title": "/tree/refs/heads/adc-ads868x",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/zephyrproject-rtos/zephyr/compare/main...ORyomei:zephyr:refs/heads/adc-ads868x",
+    "title": "rtos/zephyr/compare/main...ORyomei:zephyr:refs/heads/adc-ads868x",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
   "2026-10-09": [
+   {
+    "count": 2,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-10": [
    {
     "count": 2,
     "referrer": "github.com",
@@ -137,6 +162,10 @@
    "uniques": 0
   },
   "2026-10-08": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-09": {
    "count": 0,
    "uniques": 0
   }

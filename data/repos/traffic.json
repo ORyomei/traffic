@@ -53,8 +53,8 @@
    "uniques": 0
   },
   "2026-10-09": {
-   "count": 0,
-   "uniques": 0
+   "count": 47,
+   "uniques": 26
   },
   "2026-10-10": {
    "count": 0,
@@ -63,11 +63,38 @@
  },
  "paths": {
   "2026-10-09": [],
-  "2026-10-10": []
+  "2026-10-10": [],
+  "2026-10-11": [
+   {
+    "count": 5,
+    "path": "/ORyomei/traffic",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/tree/main/scripts",
+    "title": "/tree/main/scripts",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/tree/main/site",
+    "title": "/tree/main/site",
+    "uniques": 1
+   }
+  ]
  },
  "referrers": {
   "2026-10-09": [],
-  "2026-10-10": []
+  "2026-10-10": [],
+  "2026-10-11": [
+   {
+    "count": 5,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ]
  },
  "repo": "ORyomei/traffic",
  "views": {
@@ -124,8 +151,8 @@
    "uniques": 0
   },
   "2026-10-09": {
-   "count": 0,
-   "uniques": 0
+   "count": 7,
+   "uniques": 1
   },
   "2026-10-10": {
    "count": 0,

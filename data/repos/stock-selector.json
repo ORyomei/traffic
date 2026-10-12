@@ -59,6 +59,10 @@
   "2026-10-09": {
    "count": 7,
    "uniques": 4
+  },
+  "2026-10-10": {
+   "count": 2,
+   "uniques": 2
   }
  },
  "paths": {
@@ -121,6 +125,32 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-10-12": [
+   {
+    "count": 3,
+    "path": "/ORyomei/stock-selector/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/stock-selector",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/stock-selector/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/stock-selector/tree/main/.devcontainer",
+    "title": "/tree/main/.devcontainer",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -141,6 +171,13 @@
   "2026-10-11": [
    {
     "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-12": [
+   {
+    "count": 3,
     "referrer": "github.com",
     "uniques": 1
    }
@@ -207,6 +244,10 @@
   "2026-10-09": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-10-10": {
+   "count": 3,
+   "uniques": 1
   }
  }
 }

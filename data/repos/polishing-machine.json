@@ -149,6 +149,26 @@
     "title": "/pulse",
     "uniques": 1
    }
+  ],
+  "2026-10-13": [
+   {
+    "count": 1,
+    "path": "/ORyomei/polishing-machine",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/polishing-machine/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/polishing-machine/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -174,6 +194,13 @@
    }
   ],
   "2026-10-12": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-13": [
    {
     "count": 1,
     "referrer": "github.com",

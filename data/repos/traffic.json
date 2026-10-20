@@ -87,6 +87,10 @@
   "2026-10-17": {
    "count": 3,
    "uniques": 2
+  },
+  "2026-10-18": {
+   "count": 10,
+   "uniques": 5
   }
  },
  "paths": {
@@ -271,6 +275,26 @@
     "title": "/tree/main/site",
     "uniques": 1
    }
+  ],
+  "2026-10-20": [
+   {
+    "count": 6,
+    "path": "/ORyomei/traffic",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/tree/main/scripts",
+    "title": "/tree/main/scripts",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/tree/main/site",
+    "title": "/tree/main/site",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -333,6 +357,13 @@
    }
   ],
   "2026-10-19": [
+   {
+    "count": 6,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-20": [
    {
     "count": 6,
     "referrer": "github.com",
@@ -427,6 +458,10 @@
    "uniques": 0
   },
   "2026-10-17": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-18": {
    "count": 0,
    "uniques": 0
   }

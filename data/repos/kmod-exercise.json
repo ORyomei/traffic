@@ -91,6 +91,10 @@
   "2026-10-17": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-10-18": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -313,6 +317,26 @@
     "title": "/pulse",
     "uniques": 1
    }
+  ],
+  "2026-10-20": [
+   {
+    "count": 1,
+    "path": "/ORyomei/kmod-exercise",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/kmod-exercise/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/kmod-exercise/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -387,6 +411,13 @@
    }
   ],
   "2026-10-19": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-20": [
    {
     "count": 1,
     "referrer": "github.com",
@@ -485,6 +516,10 @@
    "uniques": 0
   },
   "2026-10-17": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-18": {
    "count": 0,
    "uniques": 0
   }

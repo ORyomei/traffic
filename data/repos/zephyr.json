@@ -95,6 +95,10 @@
   "2026-10-18": {
    "count": 1,
    "uniques": 1
+  },
+  "2026-10-19": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -313,6 +317,14 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-10-21": [
+   {
+    "count": 1,
+    "path": "/ORyomei/zephyr",
+    "title": "Overview",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -394,6 +406,13 @@
    }
   ],
   "2026-10-20": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-10-21": [
    {
     "count": 1,
     "referrer": "github.com",
@@ -496,6 +515,10 @@
    "uniques": 0
   },
   "2026-10-18": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-19": {
    "count": 0,
    "uniques": 0
   }

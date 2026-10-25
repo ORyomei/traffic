@@ -111,6 +111,10 @@
   "2026-10-22": {
    "count": 1,
    "uniques": 1
+  },
+  "2026-10-23": {
+   "count": 1,
+   "uniques": 1
   }
  },
  "downloads": {
@@ -220,6 +224,13 @@
    "v1.0/ads8688a-module-v1.0-gerber.zip": 1
   },
   "2026-10-24": {
+   "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
+   "v1.0/ADS8688A_Module-v1.0.pdf": 1,
+   "v1.0/ADS8688A_Module-v1.0.step": 1,
+   "v1.0/ads8688a-module-v1.0-bom-pnp.zip": 2,
+   "v1.0/ads8688a-module-v1.0-gerber.zip": 1
+  },
+  "2026-10-25": {
    "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
    "v1.0/ADS8688A_Module-v1.0.pdf": 1,
    "v1.0/ADS8688A_Module-v1.0.step": 1,
@@ -913,6 +924,20 @@
     "title": "/graphs/traffic",
     "uniques": 1
    }
+  ],
+  "2026-10-25": [
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module/graphs/traffic",
+    "title": "/graphs/traffic",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -1042,6 +1067,13 @@
     "referrer": "github.com",
     "uniques": 1
    }
+  ],
+  "2026-10-25": [
+   {
+    "count": 2,
+    "referrer": "github.com",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/ads8688a-module",
@@ -1155,6 +1187,10 @@
    "uniques": 0
   },
   "2026-10-22": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-23": {
    "count": 0,
    "uniques": 0
   }

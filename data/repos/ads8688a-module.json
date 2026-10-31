@@ -135,6 +135,10 @@
   "2026-10-28": {
    "count": 1,
    "uniques": 1
+  },
+  "2026-10-29": {
+   "count": 1,
+   "uniques": 1
   }
  },
  "downloads": {
@@ -286,6 +290,13 @@
    "v1.0/ads8688a-module-v1.0-gerber.zip": 1
   },
   "2026-10-30": {
+   "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
+   "v1.0/ADS8688A_Module-v1.0.pdf": 1,
+   "v1.0/ADS8688A_Module-v1.0.step": 1,
+   "v1.0/ads8688a-module-v1.0-bom-pnp.zip": 2,
+   "v1.0/ads8688a-module-v1.0-gerber.zip": 1
+  },
+  "2026-10-31": {
    "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
    "v1.0/ADS8688A_Module-v1.0.pdf": 1,
    "v1.0/ADS8688A_Module-v1.0.step": 1,
@@ -1033,6 +1044,14 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-10-31": [
+   {
+    "count": 1,
+    "path": "/ORyomei/ads8688a-module",
+    "title": "Overview",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -1204,6 +1223,13 @@
     "referrer": "github.com",
     "uniques": 1
    }
+  ],
+  "2026-10-31": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/ads8688a-module",
@@ -1341,6 +1367,10 @@
    "uniques": 0
   },
   "2026-10-28": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-10-29": {
    "count": 0,
    "uniques": 0
   }

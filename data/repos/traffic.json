@@ -135,6 +135,10 @@
   "2026-10-29": {
    "count": 4,
    "uniques": 3
+  },
+  "2026-10-30": {
+   "count": 12,
+   "uniques": 6
   }
  },
  "paths": {
@@ -475,6 +479,14 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-11-01": [
+   {
+    "count": 3,
+    "path": "/ORyomei/traffic",
+    "title": "Overview",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -626,6 +638,13 @@
     "referrer": "github.com",
     "uniques": 1
    }
+  ],
+  "2026-11-01": [
+   {
+    "count": 3,
+    "referrer": "github.com",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/traffic",
@@ -765,6 +784,10 @@
   "2026-10-29": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-10-30": {
+   "count": 1,
+   "uniques": 1
   }
  }
 }

@@ -143,6 +143,14 @@
   "2026-10-30": {
    "count": 1,
    "uniques": 1
+  },
+  "2026-10-31": {
+   "count": 12,
+   "uniques": 7
+  },
+  "2026-11-01": {
+   "count": 12,
+   "uniques": 6
   }
  },
  "paths": {
@@ -428,6 +436,20 @@
     "title": "/tree/spi-abort-siblings",
     "uniques": 1
    }
+  ],
+  "2026-11-02": [
+   {
+    "count": 2,
+    "path": "/ORyomei/zephyr",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 2,
+    "path": "/ORyomei/zephyr/tree/spi-abort-siblings",
+    "title": "/tree/spi-abort-siblings",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -563,6 +585,13 @@
    }
   ],
   "2026-11-01": [
+   {
+    "count": 2,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ],
+  "2026-11-02": [
    {
     "count": 2,
     "referrer": "github.com",
@@ -715,6 +744,14 @@
   "2026-10-30": {
    "count": 3,
    "uniques": 1
+  },
+  "2026-10-31": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-01": {
+   "count": 0,
+   "uniques": 0
   }
  }
 }

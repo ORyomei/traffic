@@ -155,6 +155,14 @@
   "2026-11-02": {
    "count": 1,
    "uniques": 1
+  },
+  "2026-11-03": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-11-04": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -608,6 +616,14 @@
     "title": "/issues/2",
     "uniques": 1
    }
+  ],
+  "2026-11-05": [
+   {
+    "count": 1,
+    "path": "/ORyomei/stock-selector/issues/2",
+    "title": "/issues/2",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -739,7 +755,8 @@
   "2026-11-01": [],
   "2026-11-02": [],
   "2026-11-03": [],
-  "2026-11-04": []
+  "2026-11-04": [],
+  "2026-11-05": []
  },
  "repo": "ORyomei/stock-selector",
  "views": {
@@ -896,6 +913,14 @@
    "uniques": 0
   },
   "2026-11-02": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-03": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-04": {
    "count": 0,
    "uniques": 0
   }

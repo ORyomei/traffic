@@ -159,6 +159,34 @@
   "2026-11-04": {
    "count": 3,
    "uniques": 2
+  },
+  "2026-11-05": {
+   "count": 19,
+   "uniques": 11
+  },
+  "2026-11-06": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-11-07": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-11-08": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-09": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-11-10": {
+   "count": 1,
+   "uniques": 1
+  },
+  "2026-11-11": {
+   "count": 1,
+   "uniques": 1
   }
  },
  "paths": {
@@ -539,6 +567,26 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-11-12": [
+   {
+    "count": 2,
+    "path": "/ORyomei/traffic",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/actions",
+    "title": "/actions",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/traffic/actions/runs/42973876465",
+    "title": "/actions/runs/42973876465",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -725,6 +773,13 @@
     "referrer": "github.com",
     "uniques": 1
    }
+  ],
+  "2026-11-12": [
+   {
+    "count": 2,
+    "referrer": "github.com",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/traffic",
@@ -888,6 +943,34 @@
   "2026-11-04": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-11-05": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-06": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-07": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-08": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-09": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-10": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-11": {
+   "count": 3,
+   "uniques": 1
   }
  }
 }

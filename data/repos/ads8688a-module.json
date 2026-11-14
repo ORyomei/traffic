@@ -407,6 +407,13 @@
    "v1.0/ADS8688A_Module-v1.0.step": 1,
    "v1.0/ads8688a-module-v1.0-bom-pnp.zip": 2,
    "v1.0/ads8688a-module-v1.0-gerber.zip": 1
+  },
+  "2026-11-14": {
+   "v1.0/ADS8688A_MODULE-v1.0.IntLib": 0,
+   "v1.0/ADS8688A_Module-v1.0.pdf": 1,
+   "v1.0/ADS8688A_Module-v1.0.step": 1,
+   "v1.0/ads8688a-module-v1.0-bom-pnp.zip": 2,
+   "v1.0/ads8688a-module-v1.0-gerber.zip": 1
   }
  },
  "paths": {
@@ -1199,7 +1206,8 @@
    }
   ],
   "2026-11-12": [],
-  "2026-11-13": []
+  "2026-11-13": [],
+  "2026-11-14": []
  },
  "referrers": {
   "2026-10-09": [
@@ -1414,7 +1422,8 @@
    }
   ],
   "2026-11-12": [],
-  "2026-11-13": []
+  "2026-11-13": [],
+  "2026-11-14": []
  },
  "repo": "ORyomei/ads8688a-module",
  "views": {

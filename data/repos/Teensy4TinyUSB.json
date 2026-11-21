@@ -159,6 +159,14 @@
   "2026-11-18": {
    "count": 2,
    "uniques": 2
+  },
+  "2026-11-19": {
+   "count": 2,
+   "uniques": 2
+  },
+  "2026-11-20": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -1404,6 +1412,26 @@
     "title": "Overview",
     "uniques": 1
    }
+  ],
+  "2026-11-21": [
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/pulse",
+    "title": "/pulse",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/oryomei/Teensy4TinyUSB",
+    "title": "Overview",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -1669,6 +1697,13 @@
     "referrer": "oryomei.github.io",
     "uniques": 1
    }
+  ],
+  "2026-11-21": [
+   {
+    "count": 1,
+    "referrer": "oryomei.github.io",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/Teensy4TinyUSB",
@@ -1830,6 +1865,14 @@
    "uniques": 0
   },
   "2026-11-18": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-19": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-20": {
    "count": 0,
    "uniques": 0
   }

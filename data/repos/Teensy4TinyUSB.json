@@ -167,6 +167,14 @@
   "2026-11-20": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-11-21": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-22": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -1452,7 +1460,8 @@
     "title": "Overview",
     "uniques": 1
    }
-  ]
+  ],
+  "2026-11-23": []
  },
  "referrers": {
   "2026-10-24": [],
@@ -1731,7 +1740,8 @@
     "referrer": "oryomei.github.io",
     "uniques": 1
    }
-  ]
+  ],
+  "2026-11-23": []
  },
  "repo": "ORyomei/Teensy4TinyUSB",
  "views": {
@@ -1900,6 +1910,14 @@
    "uniques": 0
   },
   "2026-11-20": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-21": {
+   "count": 0,
+   "uniques": 0
+  },
+  "2026-11-22": {
    "count": 0,
    "uniques": 0
   }

@@ -239,6 +239,10 @@
   "2026-11-23": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-11-24": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -331,7 +335,21 @@
   "2026-11-21": [],
   "2026-11-22": [],
   "2026-11-23": [],
-  "2026-11-24": []
+  "2026-11-24": [],
+  "2026-11-25": [
+   {
+    "count": 1,
+    "path": "/ORyomei/linebalancing",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/linebalancing/blob/main/README.md",
+    "title": "/blob/main/README.md",
+    "uniques": 1
+   }
+  ]
  },
  "referrers": {
   "2026-10-09": [],
@@ -374,7 +392,14 @@
   "2026-11-21": [],
   "2026-11-22": [],
   "2026-11-23": [],
-  "2026-11-24": []
+  "2026-11-24": [],
+  "2026-11-25": [
+   {
+    "count": 1,
+    "referrer": "github.com",
+    "uniques": 1
+   }
+  ]
  },
  "repo": "ORyomei/linebalancing",
  "views": {
@@ -617,6 +642,10 @@
   "2026-11-23": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-11-24": {
+   "count": 2,
+   "uniques": 1
   }
  }
 }

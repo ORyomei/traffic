@@ -21,6 +21,7 @@ Environment:
   DATA_DIR          output directory (default: data)
 """
 
+import http.client
 import json
 import os
 import sys
@@ -69,7 +70,8 @@ def api_get(path, attempts=3):
             status = e.code
             if status < 500:
                 return status, None, None
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        # OSError covers URLError, timeouts and dropped connections (e.g. RemoteDisconnected).
+        except (OSError, http.client.HTTPException, json.JSONDecodeError) as e:
             status = 0
             print(f"  ! {url}: {e}", file=sys.stderr)
     return status, None, None

@@ -187,6 +187,10 @@
   "2026-11-25": {
    "count": 0,
    "uniques": 0
+  },
+  "2026-11-26": {
+   "count": 0,
+   "uniques": 0
   }
  },
  "paths": {
@@ -1537,6 +1541,68 @@
     "title": "/tree/main/tools",
     "uniques": 1
    }
+  ],
+  "2026-11-27": [
+   {
+    "count": 2,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main/examples/cdc_echo",
+    "title": "/tree/main/examples/cdc_echo",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB",
+    "title": "Overview",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/blob/main/examples/cdc_echo/platformio.ini",
+    "title": "/blob/main/examples/cdc_echo/platformio.ini",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/blob/main/examples/cdc_echo/src/main.cpp",
+    "title": "/blob/main/examples/cdc_echo/src/main.cpp",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/blob/main/examples/sd_mass_storage/src/main.cpp",
+    "title": "/blob/main/examples/sd_mass_storage/src/main.cpp",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main",
+    "title": "/tree/main",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main/examples",
+    "title": "/tree/main/examples",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main/examples/cdc_echo/src",
+    "title": "/tree/main/examples/cdc_echo/src",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main/examples/sd_mass_storage/src",
+    "title": "/tree/main/examples/sd_mass_storage/src",
+    "uniques": 1
+   },
+   {
+    "count": 1,
+    "path": "/ORyomei/Teensy4TinyUSB/tree/main/tools",
+    "title": "/tree/main/tools",
+    "uniques": 1
+   }
   ]
  },
  "referrers": {
@@ -1826,6 +1892,13 @@
     "referrer": "DuckDuckGo",
     "uniques": 1
    }
+  ],
+  "2026-11-27": [
+   {
+    "count": 1,
+    "referrer": "DuckDuckGo",
+    "uniques": 1
+   }
   ]
  },
  "repo": "ORyomei/Teensy4TinyUSB",
@@ -2017,6 +2090,10 @@
   "2026-11-25": {
    "count": 11,
    "uniques": 1
+  },
+  "2026-11-26": {
+   "count": 0,
+   "uniques": 0
   }
  }
 }
